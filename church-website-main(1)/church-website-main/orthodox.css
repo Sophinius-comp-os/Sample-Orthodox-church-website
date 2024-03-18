@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2px solid skyblue;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+nav > ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li  {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 800;
+    font-size-adjust: inherit;
+}
+
+.icon {
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+
+
+.col {
+    background-image: url("images/churchbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: inherit;
+}
